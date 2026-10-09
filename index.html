@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PSN Online Learning — Pakistan Society of Nephrology</title>
+    <meta name="description" content="Advance your knowledge in nephrology, dialysis, kidney health, and emerging medical knowledge through PSN Online Learning." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+  <body>
+    <div id="app">
+      <!-- ============ NAVBAR ============ -->
+      <nav class="psn-nav" id="navbar">
+        <div class="psn-nav__inner">
+          <a href="#" class="psn-nav__logo" aria-label="PSN Online Learning Home">
+            <div class="psn-nav__logo-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="48" height="48" rx="10" fill="#1E40AF"/>
+                <path d="M16 14C16 12.8954 16.8954 12 18 12H24C27.3137 12 30 14.6863 30 18C30 21.3137 27.3137 24 24 24H20V34C20 35.1046 19.1046 36 18 36C16.8954 36 16 35.1046 16 34V14Z" fill="white"/>
+                <path d="M20 28H25C28.866 28 32 31.134 32 35C32 35.5523 31.5523 36 31 36H20V28Z" fill="#DBEAFE"/>
+              </svg>
+            </div>
+            <span class="psn-nav__logo-text">PSN <em>Online Learning</em></span>
+          </a>
+
+          <ul class="psn-nav__links" id="navLinks">
+            <li><a href="#courses" class="psn-nav__link">Courses</a></li>
+            <li><a href="#categories" class="psn-nav__link">Categories</a></li>
+            <li><a href="#how-it-works" class="psn-nav__link">How It Works</a></li>
+            <li><a href="#about" class="psn-nav__link">About PSN</a></li>
+            <li><a href="https://psn.com.pk" target="_blank" class="psn-nav__link psn-nav__link--external">Main Site ↗</a></li>
+            <li class="psn-nav__cta-item"><a href="#courses" class="psn-btn psn-btn--primary psn-btn--sm">Explore Courses</a></li>
+          </ul>
+
+          <button class="psn-nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- ============ HERO ============ -->
+      <section class="psn-hero">
+        <div class="psn-hero__bg"></div>
+        <div class="psn-hero__inner">
+          <div class="psn-hero__content">
+            <span class="psn-eyebrow">Pakistan Society of Nephrology</span>
+            <h1 class="psn-hero__title">
+              Advance Your Knowledge.<br />
+              <span class="psn-hero__title-accent">Shape the Future of Kidney Care.</span>
+            </h1>
+            <p class="psn-hero__subtitle">
+              Explore educational opportunities in nephrology, dialysis, kidney health, and emerging medical knowledge through PSN Online Learning.
+            </p>
+            <div class="psn-hero__actions">
+              <a href="#courses" class="psn-btn psn-btn--primary psn-btn--lg">
+                Explore Courses
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+              <a href="#about" class="psn-btn psn-btn--secondary psn-btn--lg">About PSN</a>
+            </div>
+
+            <div class="psn-hero__stats">
+              <div class="psn-hero__stat">
+                <span class="psn-hero__stat-num" data-count="12">12+</span>
+                <span class="psn-hero__stat-label">Specialized Courses</span>
+              </div>
+              <div class="psn-hero__stat">
+                <span class="psn-hero__stat-num" data-count="3500">3,500+</span>
+                <span class="psn-hero__stat-label">Medical Professionals</span>
+              </div>
+              <div class="psn-hero__stat">
+                <span class="psn-hero__stat-num" data-count="25">25+</span>
+                <span class="psn-hero__stat-label">Expert Instructors</span>
+              </div>
+              <div class="psn-hero__stat">
+                <span class="psn-hero__stat-num" data-count="15">15</span>
+                <span class="psn-hero__stat-label">CME Credits Available</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="psn-hero__visual">
+            <div class="psn-hero__image-frame">
+              <img src="https://images.pexels.com/photos/8533040/pexels-photo-8533040.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Nephrology research laboratory" loading="eager" />
+            </div>
+            <div class="psn-hero__badge">
+              <div class="psn-hero__badge-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <div>
+                <strong>CME Accredited</strong>
+                <span>Earn continuing medical education credits</span>
+              </div>
+            </div>
+            <div class="psn-hero__badge psn-hero__badge--bottom">
+              <div class="psn-hero__badge-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <strong>Self-Paced Learning</strong>
+                <span>Study anytime, anywhere, on any device</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ COURSE SEARCH ============ -->
+      <section class="psn-search-section">
+        <div class="psn-container">
+          <div class="psn-search-box">
+            <div class="psn-search-box__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <input type="text" id="courseSearch" placeholder="Search for courses, topics, or instructors..." class="psn-search-box__input" />
+            <button class="psn-btn psn-btn--primary psn-btn--sm" id="searchBtn">Search</button>
+          </div>
+          <p class="psn-search-hint" id="searchHint">Try "dialysis", "AI in medicine", or "critical care"</p>
+        </div>
+      </section>
+
+      <!-- ============ CATEGORIES ============ -->
+      <section class="psn-section" id="categories">
+        <div class="psn-container">
+          <div class="psn-section__header">
+            <span class="psn-eyebrow psn-eyebrow--center">Learning Categories</span>
+            <h2 class="psn-section__title">Explore Nephrology by Specialty</h2>
+            <p class="psn-section__desc">Browse our structured learning paths designed for medical professionals at every stage of their career.</p>
+          </div>
+
+          <div class="psn-category-grid">
+            <a href="#courses" class="psn-category-card" data-category="ckd">
+              <div class="psn-category-card__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2z"/><path d="M12 8v8M8 12h8"/></svg>
+              </div>
+              <h3>Chronic Kidney Disease</h3>
+              <p>Understand causes, prevention, and long-term management strategies.</p>
+              <span class="psn-category-card__count">4 courses</span>
+            </a>
+
+            <a href="#courses" class="psn-category-card" data-category="dialysis">
+              <div class="psn-category-card__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
+              </div>
+              <h3>Dialysis</h3>
+              <p>Explore techniques and advancements in hemodialysis and peritoneal dialysis.</p>
+              <span class="psn-category-card__count">6 courses</span>
+            </a>
+
+            <a href="#courses" class="psn-category-card" data-category="transplant">
+              <div class="psn-category-card__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </div>
+              <h3>Transplantation</h3>
+              <p>Comprehensive insights into kidney transplant procedures and aftercare.</p>
+              <span class="psn-category-card__count">3 courses</span>
+            </a>
+
+            <a href="#courses" class="psn-category-card" data-category="pediatric">
+              <div class="psn-category-card__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+              </div>
+              <h3>Pediatric Nephrology</h3>
+              <p>Focused care approaches for kidney diseases in children.</p>
+              <span class="psn-category-card__count">2 courses</span>
+            </a>
+
+            <a href="#courses" class="psn-category-card" data-category="hypertension">
+              <div class="psn-category-card__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+              </div>
+              <h3>Hypertension</h3>
+              <p>Managing high blood pressure and its connection to kidney health.</p>
+              <span class="psn-category-card__count">3 courses</span>
+            </a>
+
+            <a href="#courses" class="psn-category-card" data-category="ai">
+              <div class="psn-category-card__icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+              </div>
+              <h3>AI in Medicine</h3>
+              <p>Harness AI for diagnosis, treatment planning, and patient outcomes.</p>
+              <span class="psn-category-card__count">2 courses</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FEATURED COURSES ============ -->
+      <section class="psn-section psn-section--alt" id="courses">
+        <div class="psn-container">
+          <div class="psn-section__header">
+            <span class="psn-eyebrow psn-eyebrow--center">Featured Courses</span>
+            <h2 class="psn-section__title">Professional Medical Programs</h2>
+            <p class="psn-section__desc">Enroll in expert-led courses designed to elevate your clinical practice and earn CME credits.</p>
+          </div>
+
+          <div class="psn-course-grid" id="courseGrid">
+            <!-- Course cards are rendered by JavaScript -->
+          </div>
+
+          <div class="psn-no-results" id="noResults" style="display:none;">
+            <p>No courses found matching your search. Try a different keyword.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ HOW IT WORKS ============ -->
+      <section class="psn-section" id="how-it-works">
+        <div class="psn-container">
+          <div class="psn-section__header">
+            <span class="psn-eyebrow psn-eyebrow--center">How It Works</span>
+            <h2 class="psn-section__title">Start Learning in Three Steps</h2>
+            <p class="psn-section__desc">A straightforward process designed for busy medical professionals.</p>
+          </div>
+
+          <div class="psn-steps">
+            <div class="psn-step">
+              <div class="psn-step__num">01</div>
+              <div class="psn-step__icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/></svg>
+              </div>
+              <h3>Create Your Account</h3>
+              <p>Register with your medical credentials and get instant access to the PSN learning platform.</p>
+            </div>
+
+            <div class="psn-step__connector"></div>
+
+            <div class="psn-step">
+              <div class="psn-step__num">02</div>
+              <div class="psn-step__icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              </div>
+              <h3>Choose Your Course</h3>
+              <p>Browse our catalog by category, difficulty level, or CME credits. Enroll in programs that match your goals.</p>
+            </div>
+
+            <div class="psn-step__connector"></div>
+
+            <div class="psn-step">
+              <div class="psn-step__num">03</div>
+              <div class="psn-step__icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+              </div>
+              <h3>Learn & Get Certified</h3>
+              <p>Complete modules at your own pace, pass assessments, and earn PSN-certified CME credits.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT / BENEFITS ============ -->
+      <section class="psn-section psn-section--alt" id="about">
+        <div class="psn-container">
+          <div class="psn-about">
+            <div class="psn-about__visual">
+              <img src="https://images.pexels.com/photos/39192383/pexels-photo-39192383.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Doctor consulting with patient" loading="lazy" />
+              <div class="psn-about__badge">
+                <span class="psn-about__badge-year">Since 1995</span>
+                <span class="psn-about__badge-text">Advancing Kidney Care in Pakistan</span>
+              </div>
+            </div>
+
+            <div class="psn-about__content">
+              <span class="psn-eyebrow">About PSN</span>
+              <h2 class="psn-section__title psn-section__title--left">The Pakistan Society of Nephrology</h2>
+              <p class="psn-about__text">
+                Founded in 1995, the Pakistan Society of Nephrology is a professional organization committed to advancing the care of patients with kidney diseases through education, research, and advocacy. PSN has worked tirelessly to improve nephrology care across Pakistan, fostering collaboration among healthcare professionals and supporting the latest advancements in kidney health.
+              </p>
+
+              <div class="psn-benefits">
+                <div class="psn-benefit">
+                  <div class="psn-benefit__icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                  </div>
+                  <div>
+                    <h4>Expert-Led Instruction</h4>
+                    <p>Learn from leading nephrologists and medical professionals across Pakistan.</p>
+                  </div>
+                </div>
+
+                <div class="psn-benefit">
+                  <div class="psn-benefit__icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                  </div>
+                  <div>
+                    <h4>CME Accredited Credits</h4>
+                    <p>Earn recognized continuing medical education credits with every completion.</p>
+                  </div>
+                </div>
+
+                <div class="psn-benefit">
+                  <div class="psn-benefit__icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  </div>
+                  <div>
+                    <h4>Flexible & Self-Paced</h4>
+                    <p>Access course materials anytime — fit learning around your clinical schedule.</p>
+                  </div>
+                </div>
+
+                <div class="psn-benefit">
+                  <div class="psn-benefit__icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  </div>
+                  <div>
+                    <h4>Professional Community</h4>
+                    <p>Join a network of nephrology professionals across the country.</p>
+                  </div>
+                </div>
+              </div>
+
+              <a href="https://psn.com.pk/about" target="_blank" class="psn-btn psn-btn--secondary">Learn More About PSN</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FINAL CTA ============ -->
+      <section class="psn-cta">
+        <div class="psn-container">
+          <div class="psn-cta__inner">
+            <h2 class="psn-cta__title">Ready to Advance Your Nephrology Practice?</h2>
+            <p class="psn-cta__text">Join thousands of medical professionals enhancing their knowledge through PSN Online Learning. Start your journey today.</p>
+            <div class="psn-cta__actions">
+              <a href="#courses" class="psn-btn psn-btn--white psn-btn--lg">
+                Browse All Courses
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+              <a href="https://psn.com.pk" target="_blank" class="psn-btn psn-btn--outline-white psn-btn--lg">Visit PSN Main Site</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FOOTER ============ -->
+      <footer class="psn-footer">
+        <div class="psn-container">
+          <div class="psn-footer__top">
+            <div class="psn-footer__brand">
+              <div class="psn-footer__logo">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="48" height="48" rx="10" fill="#1E40AF"/>
+                  <path d="M16 14C16 12.8954 16.8954 12 18 12H24C27.3137 12 30 14.6863 30 18C30 21.3137 27.3137 24 24 24H20V34C20 35.1046 19.1046 36 18 36C16.8954 36 16 35.1046 16 34V14Z" fill="white"/>
+                  <path d="M20 28H25C28.866 28 32 31.134 32 35C32 35.5523 31.5523 36 31 36H20V28Z" fill="#DBEAFE"/>
+                </svg>
+                <span>PSN Online Learning</span>
+              </div>
+              <p>Pakistan Society of Nephrology — advancing kidney health through education, research, and advocacy since 1995.</p>
+              <div class="psn-footer__social">
+                <a href="#" aria-label="Facebook" class="psn-footer__social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </a>
+                <a href="#" aria-label="Twitter" class="psn-footer__social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                </a>
+                <a href="#" aria-label="LinkedIn" class="psn-footer__social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="#" aria-label="Instagram" class="psn-footer__social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="psn-footer__col">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#courses">All Courses</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#about">About PSN</a></li>
+              </ul>
+            </div>
+
+            <div class="psn-footer__col">
+              <h4>Learning</h4>
+              <ul>
+                <li><a href="#courses">Critical Care Nephrology</a></li>
+                <li><a href="#courses">AI in Medical Practice</a></li>
+                <li><a href="#courses">Dialysis Techniques</a></li>
+                <li><a href="#courses">Kidney Transplantation</a></li>
+              </ul>
+            </div>
+
+            <div class="psn-footer__col">
+              <h4>Contact</h4>
+              <ul class="psn-footer__contact">
+                <li>Office 115, 1st Floor, Park Avenue Building</li>
+                <li>Plot 24/A, Block 6, PECHS</li>
+                <li>Shahrah-e-Faisal, Karachi</li>
+                <li><a href="mailto:info@psn.com.pk">info@psn.com.pk</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="psn-footer__bottom">
+            <p>&copy; 2025 Pakistan Society of Nephrology. All rights reserved.</p>
+            <p>PSN Online Learning — A platform by the Pakistan Society of Nephrology.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
